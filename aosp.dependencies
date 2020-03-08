@@ -1,12 +1,48 @@
 [
+ {
+   "remote": "github",
+   "repository": "WiZaRd981/android_device_xiaomi_sdm660-common",
+   "target_path": "device/xiaomi/sdm660-common",
+   "branch": "Evo-10"
+ },
+ {
+   "remote": "github",
+   "repository": "xiaomi-sdm660/android_kernel_xiaomi_sdm660",
+   "target_path": "kernel/xiaomi/sdm660",
+   "branch": "kernel.lnx.4.4.r38-rel-wifi"
+ },
+ {
+   "remote": "github",
+   "repository": "xiaomi-sdm660/android_vendor_xiaomi_sdm660-common",
+   "target_path": "vendor/xiaomi/sdm660-common",
+   "branch": "lineage-17.0"
+ },
+ {
+   "remote": "github",
+   "repository": "xiaomi-sdm660/android_vendor_xiaomi_wayne",
+   "target_path": "vendor/xiaomi/wayne",
+   "branch": "lineage-17.0"
+ }, 
+ {
+   "remote": "github",
+   "repository": "xiaomi-sdm660/android_vendor_xiaomi_MiuiCamera",
+   "target_path": "vendor/xiaomi/MiuiCamera",
+   "branch": "lineage-17.0"
+ }, 
+ {
+    "remote": "github",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-17.0"
+ },
   {
-    "repository":  "evo-devices/device_xiaomi_sdm660-common",
-    "target_path": "device/xiaomi/sdm660-common",
-    "branch":      "ten"
-  },
-  {
-    "repository":  "evo-devices/device_twrp",
+    "repository":  "WiZaRd981/device_twrp",
     "target_path": "device/twrp/jasmine_sprout",
     "branch":      "jasmine_sprout"
+  }
+  {
+    "repository":  "WiZaRd981/prebuilts_clang_host_linux-x86_clang-10.0.4",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r377782b",
+    "branch":      "ten"
   }
 ]
